@@ -7,16 +7,6 @@ from datetime import datetime
 # Set the page configuration for a wide, corporate-style layout
 st.set_page_config(page_title="Naf Finance Tracker", page_icon=":money_with_wings:", layout="wide")
 
-# st.sidebar.header("Instructions")
-# st.sidebar.write("""
-#     1. **Upload an Excel file** that contains product pricing data for scraping.
-#     2. Click **Start Scraping** to begin the extraction process.
-#     3. The scraper will extract product details and update the file.
-#     4. After the scraping process, you will be able to download the updated file.
-#     5. The scraper will process different product categories.
-# """)
-
-# ----------------- Inject Custom CSS -----------------
 st.markdown("""
     <style>
         /* Set the overall page background */
@@ -82,7 +72,6 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# ----------------- Helper Functions -----------------
 def parse_comma_number(input_str, default=0):
     """
     Parses a string that may contain commas into a float.
@@ -102,7 +91,6 @@ def format_number(num):
     except Exception:
         return num
 
-# ----------------- Google Sheets Functions -----------------
 def init_google_sheet():
     scope = [
         "https://spreadsheets.google.com/feeds",
@@ -110,9 +98,8 @@ def init_google_sheet():
         "https://www.googleapis.com/auth/drive.file",
         "https://www.googleapis.com/auth/drive",
     ]
-    creds = Credentials.from_service_account_file(
-        "adept-rock-445911-p3-6f1266b2435a.json",  # Replace with your JSON file name
-        scopes=scope
+    creds_dict = json.loads(st.secrets["google_service_account"]["service_account_json"])
+    creds = Credentials.from_service_account_info(creds_dict)
     )
     client = gspread.authorize(creds)
     spreadsheet = client.open_by_key("1DNuyA2vy2uN9sO-I3z0hakfVUpAGkRrS3eGDw13Ju_0")
@@ -145,7 +132,6 @@ def create_worksheet_layout(spreadsheet, month):
     
     return worksheet
 
-# ----------------- Main App -----------------
 def main():
     # st.title("Naf Finance Tracker")
     st.markdown('<h1 style="text-align: center;">Naf Finance Tracker</h1>', unsafe_allow_html=True)
