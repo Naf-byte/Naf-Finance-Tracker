@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "civil-forge-455821-e2",
+  "private_key_id": "b929fdb435450f3dc83ec24e30950fb06a72d1c4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDI9Eyhs7TnRSlS\nJVwAhqs7UjaxX1YhumzOs9c9EO5IsFlq0DZRjW7C9IY7iHQLyh7JQ/9KRVToj3rI\nxdlk6yTewXNQEG1/8ByQu7n4dJay+21E0JGFGI/bpkKOmciV+BKGpaGwvitzOltH\n/oca54yHmLmWsD/GTJ7EOtWCYgVpRFhKumgkN6M2fTDLfx9BeSL/lfMW8I3esLIC\n0CT4oZw5beLnbIZt9YOcas6AIi8xP/rjnoAK4kKr337QYmq1e5nc2AwhYwYFRAFT\nBd9SzMlmLuznoqtPznyGteOmgLcg1432ZMmvZINqsIjD+4kcTPAGmFmvIcLgKTbn\n4DB9gYNJAgMBAAECggEAN9u4hWY3jeWqo7vgxACrDjU/ILS4c22nmxlgZggTxD7I\nzCkOQEMJG8XunhPC9hf70MRG7TUyceaYIcDlOekm+YhablHyrhJnTk/wVMDLtvqu\nl+dF2/JE4rBnZc4XdKBdPfJCbKef2krJXszAb1kXtgVc6Scawxs/MpqMCM8IZAbu\nA9XxFd9Jw+UGqf0AtP0XmVSR3Dk4PDjC12JqgzOp875Ip1IbS8ie9dfmoeKFMH4X\nTfC1y1V2ugJjIoclkKdNHbjuerCe/nvKvo1XOrDMpUdWhalxE7vix4+ovJFj8aRa\nxf3+QHpttlmW82AbbM1RgWFROR3Z9qz+MiKIFmfztQKBgQDy6lUrLE8dXYetrElA\nvgvYZGIheRM6gQoE6pny9SBbq8M2ddEjOArTlbJL72s4oAuPPSoVLRcEaiw8t36n\nsomhRzgNd6k+JwFVl5CuxlpV4/bn4uFwOMs7BrDlKhvAEfOG2aKAQ15N4Acml/7W\nkIN0GQJfWhVJ+vo+yEo3HtXNdwKBgQDTx1jRC6IYYzpALJRO75u2scwFqDho1RJn\ncmKMJ118UHMIcGNEGWee46zMHuYb+cDzkYtByhaX71z8aRlizwzQrJYrRZyyJB60\n3JtuLw089/ewS1CAu68dTsznt5ja2o3LPhTX948fe1qZZlyVIoHL4PRyR+iGJ1g+\nf4AFPsxlPwKBgFMq07oSU4v0R824XOQjrR6LT+Wx9FllcK66O7cpIckBB7cPo2jx\neRNz/zVsZUNf2FVUVaIma+kBCOBI2r5DrEdhgNlrjLBQ3m4VlF2iX69ke1ZtIU4w\nw7QT2GC9h/68pqoWvUI4zoLPHuOhyohftgH7xgorZ3qKyT7RiEdS8VSFAoGBAMvu\nyfs7zZLYcq57fzFoELVkDwhfjjp8++T7xCQcgCyGt88nkp9wK1VY/vvswT+tSH4D\n6Gqo9QrH5+30MwrwQPHtUApJVXRBzgPx8AaxbnkIe86bJ+FfWmjJig2Uwa/2B9bw\naFfzvzHcskjHxl2iRgUTEbG+xw3wc0xzsM7cQy03AoGBAOdWbPxhEmuz7fyfljEH\nVgTQdL6tUJR3HBSdEZvP4kbjeo7via6QZeX31pUxX33+JVLxNETfEBOxXWkzqRFR\nzEEoEUR5NDGX4cJ7J71x48TvcuJXeV4Bnt50IhLBrTz3cXPqoCthDd0nfTD7NlHS\nxU3IZYs9GZNEgbXpgxKd3PtO\n-----END PRIVATE KEY-----\n",
+  "client_email": "naf-finance-tracker@civil-forge-455821-e2.iam.gserviceaccount.com",
+  "client_id": "111564584070258159278",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/naf-finance-tracker%40civil-forge-455821-e2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
