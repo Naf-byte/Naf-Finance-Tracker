@@ -98,8 +98,9 @@ def init_google_sheet():
         "https://www.googleapis.com/auth/drive.file",
         "https://www.googleapis.com/auth/drive",
     ]
-    creds_dict = json.loads(st.secrets["google_service_account"]["service_account_json"])
-    creds = Credentials.from_service_account_info(creds_dict)
+    creds = Credentials.from_service_account_file(
+        "adept-rock-445911-p3-6f1266b2435a.json",  # Replace with your JSON file name
+        scopes=scope
     )
     client = gspread.authorize(creds)
     spreadsheet = client.open_by_key("1DNuyA2vy2uN9sO-I3z0hakfVUpAGkRrS3eGDw13Ju_0")
