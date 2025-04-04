@@ -3,6 +3,7 @@ import pandas as pd
 import gspread
 from google.oauth2.service_account import Credentials
 from datetime import datetime
+import json
 
 # Set the page configuration for a wide, corporate-style layout
 st.set_page_config(page_title="Naf Finance Tracker", page_icon=":money_with_wings:", layout="wide")
